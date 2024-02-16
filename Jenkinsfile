@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
               script {
-                    sh 'echo it has been pulled''
+                    sh 'echo it has been pulled'
                 }
                 // Using the 'git' step to check out your repository
                 //git url: 'https://github.com/insulet-corp-cloud/mongodb-automation'
