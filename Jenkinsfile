@@ -1,9 +1,5 @@
 pipeline {
-    agent {
-		ecs {
-            inheritFrom "jenkins-agent"
-        }
-	}
+    agent any
 
     stages {
         stage('Checkout Code') {
